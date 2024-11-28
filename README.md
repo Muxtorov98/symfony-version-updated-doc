@@ -30,8 +30,7 @@ To review the current project dependencies, run the following command and save t
 ```composer show > packages.txt```
 
 ## 3. Update composer.json Requirements
-In your composer.json, ensure the PHP version and Symfony requirements are properly set:
-
+In your composer.json => symfony/*, ensure the PHP version and Symfony requirements are properly set:
 ```
 "require": {
     "php": ">=8.2",
@@ -41,7 +40,7 @@ In your composer.json, ensure the PHP version and Symfony requirements are prope
 ```
 ## Once updated, run:
 ```
-composer update --with-all-dependencies
+bastakor yangilanishi --barcha-barcha-bog'liqlar
 
 ```
 ```
