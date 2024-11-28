@@ -42,7 +42,6 @@ In your composer.json, ensure the PHP version and Symfony requirements are prope
 ## Once updated, run:
 ```
 composer update --with-all-dependencies
-```
 
 ```
 php bin/console cache:clear
