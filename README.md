@@ -40,7 +40,7 @@ In your composer.json => symfony/*, ensure the PHP version and Symfony requireme
 ```
 ## Once updated, run:
 ```
-bastakor yangilanishi --barcha-barcha-bog'liqlar
+composer update --with-all-dependencies
 
 ```
 ```
